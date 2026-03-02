@@ -42,8 +42,8 @@ export function ContactPage() {
               <Mail className="text-green-600" size={32} />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Email</h3>
-            <p className="text-gray-600">support@diufoodportal.com</p>
-            <p className="text-gray-600">info@diufoodportal.com</p>
+            <p className="text-gray-600">support: sagor.stu4@gmail.com</p>
+            <p className="text-gray-600">info: sagor.stu4@gmail.com</p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all">
@@ -51,8 +51,8 @@ export function ContactPage() {
               <Phone className="text-blue-600" size={32} />
             </div>
             <h3 className="text-xl font-bold text-gray-800 mb-2">Phone</h3>
-            <p className="text-gray-600">+880 1712-345678</p>
-            <p className="text-gray-600">+880 1823-456789</p>
+            <p className="text-gray-600">+880 1852-500422</p>
+            <p className="text-gray-600">+880 1852-500422</p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all">
@@ -80,7 +80,7 @@ export function ContactPage() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 focus:border-green-600 focus:outline-none transition-colors"
-                  placeholder="John Doe"
+                  placeholder="AM Sagor"
                   required
                 />
               </div>
