@@ -6,7 +6,7 @@ import { User, Building2 } from "lucide-react";
 export function RegisterPage() {
   const [role, setRole] = useState<"student" | "hotel-owner">("student");
   const [formData, setFormData] = useState({
-   
+    name: "",
     email: "",
     password: "",
     phone: "",
