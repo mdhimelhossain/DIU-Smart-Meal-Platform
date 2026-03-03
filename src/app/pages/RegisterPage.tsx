@@ -113,7 +113,7 @@ export function RegisterPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                 
+                  Phone
                 </label>
                 <input
                   type="tel"
