@@ -11,7 +11,7 @@ export function RegisterPage() {
     password: "",
     phone: "",
     studentId: "",
-    
+    department: "",
     hotelName: "",
     location: "",
   });
