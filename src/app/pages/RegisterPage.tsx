@@ -12,7 +12,7 @@ export function RegisterPage() {
     phone: "",
     studentId: "",
     department: "",
-    
+    hotelName: "",
     location: "",
   });
   const navigate = useNavigate();
