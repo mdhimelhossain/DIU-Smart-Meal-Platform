@@ -13,7 +13,7 @@ export function RegisterPage() {
     studentId: "",
     department: "",
     hotelName: "",
-    location: "",
+    
   });
   const navigate = useNavigate();
 
