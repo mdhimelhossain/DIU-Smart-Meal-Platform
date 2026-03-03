@@ -128,7 +128,7 @@ export function RegisterPage() {
 
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  
+                  Password
                 </label>
                 <input
                   type="password"
