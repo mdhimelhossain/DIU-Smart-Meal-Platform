@@ -221,7 +221,7 @@ export function RegisterPage() {
           </form>
 
           <p className="text-center text-gray-600 mt-6">
-            Already have an account?{" "}
+            
             <Link to="/login" className="text-green-600 font-semibold hover:underline">
               Login here
             </Link>
