@@ -89,7 +89,7 @@ export function RegisterPage() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 focus:border-green-600 focus:outline-none transition-colors"
-                  placeholder="John Doe"
+                  placeholder="Mr. X"
                   required
                 />
               </div>
