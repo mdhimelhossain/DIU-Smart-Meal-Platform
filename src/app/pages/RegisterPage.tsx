@@ -15,8 +15,8 @@ export function RegisterPage() {
     hotelName: "",
     location: "",
   });
- 
-
+  const navigate = useNavigate();
+  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Mock registration - redirect to respective dashboard
