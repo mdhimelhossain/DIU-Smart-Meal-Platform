@@ -71,7 +71,7 @@ export function RegisterPage() {
             >
               <Building2 className={`mx-auto mb-2 ${role === "hotel-owner" ? "text-green-600" : "text-gray-400"}`} size={32} />
               <span className={`font-semibold ${role === "hotel-owner" ? "text-green-600" : "text-gray-600"}`}>
-                
+                Hotel Owner
               </span>
             </button>
           </div>
