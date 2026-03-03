@@ -155,7 +155,7 @@ export function RegisterPage() {
                     value={formData.studentId}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-2xl border-2 border-gray-200 focus:border-green-600 focus:outline-none transition-colors"
-                    placeholder="201-35-3456"
+                    placeholder="231-35-3456"
                     required
                   />
                 </div>
