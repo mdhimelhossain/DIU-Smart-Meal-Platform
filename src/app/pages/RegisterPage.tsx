@@ -40,7 +40,7 @@ export function RegisterPage() {
 
       <div className="max-w-2xl mx-auto px-4 py-12">
         <div className="bg-white rounded-2xl shadow-xl p-8">
-          <h1 className="text-3xl font-bold text-gray-800 text-center mb-2">Create Account</h1>
+          
           <p className="text-gray-600 text-center mb-8">Join DIU Smart Food Portal</p>
 
           {/* Role Selection */}
