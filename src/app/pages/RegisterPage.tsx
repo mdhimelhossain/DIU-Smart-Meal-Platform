@@ -8,7 +8,7 @@ export function RegisterPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    password: "",
+    
     phone: "",
     studentId: "",
     department: "",
