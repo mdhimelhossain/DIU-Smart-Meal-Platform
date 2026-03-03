@@ -10,7 +10,7 @@ export function RegisterPage() {
     email: "",
     password: "",
     phone: "",
-    studentId: "",
+   
     department: "",
     hotelName: "",
     location: "",
