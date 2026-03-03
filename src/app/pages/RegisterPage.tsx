@@ -61,7 +61,7 @@ export function RegisterPage() {
             </button>
 
             <button
-              
+              type="button"
               onClick={() => setRole("hotel-owner")}
               className={`p-4 rounded-2xl border-2 transition-all ${
                 role === "hotel-owner"
