@@ -84,7 +84,7 @@ export function RegisterPage() {
                   Full Name
                 </label>
                 <input
-                  
+                  type="text"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
