@@ -83,3 +83,12 @@ const seedFoodData = async () => {
 const mongoUri = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/diu_food";
 
 
+mongoose
+  .connect(mongoUri)
+  .then(async () => {
+    console.log("DB Connected");
+    await seedFoodData();
+  })
+  .catch(err => console.log("DB connection error:", err));
+
+app.listen(5000, () => console.log("Server running on 5000"));
